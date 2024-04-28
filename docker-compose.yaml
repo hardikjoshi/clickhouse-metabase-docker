@@ -6,7 +6,7 @@ services:
     container_name: clickhouse
     hostname: clickhouse
     environment:
-      CLICKHOUSE_DB: ipdr
+      CLICKHOUSE_DB: your-db
       CLICKHOUSE_USER: default
       CLICKHOUSE_PASSWORD: password
     volumes:
